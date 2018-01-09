@@ -244,7 +244,7 @@ public class Application {
             createUserFolder(userId, destinationPath, stepCount);
         } catch (TwitterException e) {
             System.out.println(e.getErrorMessage().toUpperCase() + " Exiting..");
-           
+                 
 //            System.out.println(username + " does not exist. Exiting..");
 //            System.exit(0);
         }
