@@ -40,7 +40,7 @@ Because of that, program uses more than 1 apiKey to continue downloading data wi
 
 ## Authors
 
-* **Umut Canbolat** - *Initial work* - [Krupunkt](https://github.com/krupunkt)
+* **Umut Canbolat** - *Initial work* - [umutcanbolat](https://github.com/umutcanbolat)
 
 ## License
 
