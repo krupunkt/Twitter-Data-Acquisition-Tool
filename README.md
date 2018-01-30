@@ -1,6 +1,6 @@
 # Twitter-Data-Acquisition-Software
 
-A tool which helps users to gather a kind of big data from Twitter for text analysis using Twitter API.
+A tool which helps users gather a kind of big data from Twitter for text analysis using Twitter API.
 
 ## Description
 The program uses social network of Twitter users to reach bigger populations. It starts with 1 user, and jumps to other people on social network of this user.
