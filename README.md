@@ -3,13 +3,13 @@
 A tool which helps users gather a kind of big data from Twitter for text analysis using Twitter API.
 
 ## Description
-The program uses social network of Twitter users to reach bigger populations. It starts with 1 user, and jumps to other people on social network of this user.
+To obtain a huge tweet data, the program uses social network of Twitter users to reach bigger populations. It starts with 1 user, and jumps to other people on the social network of this user.
 
-At the beginning, the program asks for a Twitter username as input. After that it starts downloading the last 
+At the beginning, the program asks for a Twitter username as input. After that it starts downloading the latest 
 3200 tweets (API Limitation) of the user and writes down them in a JSON file.
 
 After it finishes downloading, it gathers list of the people followed by the given user.
-And starts downloading the last 3200 tweets of these bunch of users too. 
+And starts downloading the latest 3200 tweets of these bunch of users too. 
 These steps follow each other in a recursive way until user-specified stepcount limit is exceeded.
 
 ## How To Use?
