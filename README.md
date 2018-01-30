@@ -26,9 +26,9 @@ These steps follow each other in a recursive way until user-specified stepcount 
 
 ## Twitter API Limits
 * Twitter API allows us to retrieve up to the latest 3200 tweets of each user only.
-* It is not allowed to send more than 900 requests to GET "/statuses/user_timeline" endpoint in 900 seconds. (For each key). 
+* It is not allowed to send more than 900 requests to `GET "/statuses/user_timeline"` endpoint in 900 seconds. (For each key). 
 Because of that, program uses more than 1 apiKey to continue downloading data without stop. 
-* Also we cannot send more than 15 request to GET "/friends/ids" endpoint in 15 minutes.
+* Also we cannot send more than 15 request to `GET "/friends/ids"` endpoint in 15 minutes.
 * For more info about all endpoints and limitations, visit the developer web site: https://developer.twitter.com/en/docs/basics/rate-limits
 
 ## Libraries
