@@ -6,7 +6,7 @@ A tool which helps users gather a kind of big data from Twitter for text analysi
 To obtain a huge tweet data, the program uses social network of Twitter users to reach bigger populations. It starts with 1 user, and jumps to other people on the social network of this user.
 
 At the beginning, the program asks for a Twitter username as input. After that it starts downloading up to the latest 
-3200 tweets (API Limitation) of the user and writes them down in a JSON file.
+3200 tweets (API Limitation [create an anchor](#Twitter-API-Limits)) of the user and writes them down in a JSON file.
 
 After it finishes downloading, it gathers list of the people followed by the given user.
 And starts downloading up to the latest 3200 tweets of these bunch of users too. 
