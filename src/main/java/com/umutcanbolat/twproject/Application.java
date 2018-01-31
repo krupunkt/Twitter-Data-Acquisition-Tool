@@ -72,7 +72,7 @@ public class Application {
                 st = twitter.getRateLimitStatus().get("/friends/ids");
                 System.out.println(tokenId + ": " + st);
             } catch (Exception e) {
-
+                System.out.println("Exception when trying to gather old key's remaining limits");
             }
 
             tokenId++;
@@ -86,9 +86,9 @@ public class Application {
             twitter = tf.getInstance();
             User verifyCredentials = twitter.verifyCredentials();
             System.out.println(verifyCredentials);
-            System.out.println("Switched to " + tokenId + ". key" + " Reason: " + reason + "; 10 saniye uyuyacak");
+            System.out.println("Switched to " + tokenId + ". key" + " Reason: " + reason + "; program will sleep for 10 seconds");
             TimeUnit.SECONDS.sleep(10);
-//            System.out.println("uyandı");
+//            System.out.println("woke up");
             try {
                 twitter.getOAuthAccessToken();
                 st = twitter.getRateLimitStatus().get("/statuses/user_timeline");
