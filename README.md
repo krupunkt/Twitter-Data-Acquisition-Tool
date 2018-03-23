@@ -1,5 +1,5 @@
-# Twitter-Data-Acquisition-Software [![Build Status](https://travis-ci.org/umutcanbolat/Twitter-Data-Acquisition-Software.svg?branch=master)](https://travis-ci.org/umutcanbolat/Twitter-Data-Acquisition-Software)
-
+# Twitter-Data-Acquisition-Software
+[![Build Status](https://travis-ci.org/umutcanbolat/Twitter-Data-Acquisition-Software.svg?branch=master)](https://travis-ci.org/umutcanbolat/Twitter-Data-Acquisition-Software)
 A tool which helps users gather a kind of big data from Twitter for text analysis using Twitter API.
 
 ## Description
