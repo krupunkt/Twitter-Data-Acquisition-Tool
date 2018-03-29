@@ -20,7 +20,7 @@ After it finishes downloading, it gathers the list of the people followed by the
   * You can create more than 1 application and get more keys in order not to wait for [Twitter API limitation](#twitter-api-limits)s.
 
 * After obtaining the API Keys, put them in the [ApiKey.java](src/main/java/com/umutcanbolat/twproject/ApiKey.java)
-  * <img src="https://i.hizliresim.com/Mdlon2.png">
+  * <img src="https://user-images.githubusercontent.com/10065235/38103796-04fd1676-3390-11e8-9ee2-3d9d3556ee59.png">
 
 ## Twitter API Limits
 * Twitter API allows us to retrieve up to the latest 3200 tweets of each user only.
